@@ -46,7 +46,7 @@ package
 			else if(byteArr[0]=='C'.charCodeAt(0)){
 				compression='zlib';
 			}
-			else if(byteArr[0]=='F'.charCodeAt(0)){
+			else if(byteArr[0]=='Z'.charCodeAt(0)){
 				compression='lzma';
 			}
 			else{
